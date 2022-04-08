@@ -20,7 +20,7 @@ const string = myFunFromA('bar')
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   {{ string }}
-  {{ viteClass.bar }}
+<!--  {{ viteClass.bar }}-->
   {{ viteClassInstance.bar }}
 </template>
 
