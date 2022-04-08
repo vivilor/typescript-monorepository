@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "src/**/*.ts"
+  ],
+  "references": [
+    { "path": "../pack-a/tsconfig.json" }
+  ]
+}

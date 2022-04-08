@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": [],
+    "jsx": "react",
+    "noEmit": false,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "paths": {
+      "@typescript-monorepository/*": ["packages/*"],
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

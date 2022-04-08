@@ -1,0 +1,5 @@
+# Project exclude paths
+/node_modules/
+/packages/pack-a/node_modules/
+/packages/pack-b/node_modules/
+/packages/pack-c/node_modules/
